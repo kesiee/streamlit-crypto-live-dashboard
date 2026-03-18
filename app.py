@@ -530,7 +530,7 @@ if watchlist:
         st.dataframe(pd.DataFrame(rows), use_container_width=True, hide_index=True)
 
 st.markdown("---")
-st.caption("CoinGecko · CryptoCompare · Built by Shashank (KC) · [Portfolio](https://portfolio-shashank-kammanahalli.vercel.app)")
+st.caption("CoinGecko · CryptoCompare · Built by Shashank (KC) · [Portfolio](https://shashank-kammanahalli.vercel.app)")
 
 time.sleep(refresh_sec)
 st.rerun()
